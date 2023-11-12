@@ -1,0 +1,15 @@
+.card-list {
+  display: flex;
+  gap: 37px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 830px ) {
+  .card-list {
+      grid-template-columns: 1fr
+  }
+}
